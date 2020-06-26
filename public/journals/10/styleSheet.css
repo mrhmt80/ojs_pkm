@@ -1,0 +1,43 @@
+/* menu sidebar */
+.hover{
+	width:100%;
+	border-collapse: collapse;
+}
+
+.hover th{
+	height: 30px;
+	background: #FFFFFF;
+	color:#1e6292;
+}
+
+.hover td{
+	height: 30px;
+	padding-top: 3px;
+	vertical-align: middle;
+	border-bottom: 1px solid #ffffff;
+	text-align: center;
+}
+
+.hover td a {
+	width: 100%;
+	display: block;
+}
+
+.hover tr {
+	background:#1e6292;
+	color:#ffffff; 
+}
+
+/* ketika mouse lewat */
+
+.hover tr:hover {
+	background-color:#2c5876;
+}
+
+.hover tr a{
+	color:#ffffff;
+}
+
+.hover a:hover {
+	color:#f78b4a;
+}
